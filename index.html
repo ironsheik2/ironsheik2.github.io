@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            function randomElement()
+            {
+                var quotes = ["bullshit holk hogan",
+                 "are you a man",
+                 "or are you a piece of shit",
+                 "no good motherfuckier",
+                 "facken bullshiet",
+                 "punk motherfuckier",
+                 "french canadian piece of shit faggot",
+                 "you call im i tok to im",
+                 "fack da ted dibiase",
+                 "fack da john ceena",
+                 "you are cocksucker motherfuckier",
+                 "fack you pissa shit",
+                 "all american guld medal"];
+                 document.getElementById("s1").innerHTML = quotes[Math.floor(Math.random() * quotes.length)];
+            }
+            window.setInterval(randomElement, 1000);
+        </script>
+    </head>
+    <style>
+    video#vid
+    {
+        -webkit-filter: sepia(100%);
+        filetr : sepia(100%);
+        width : auto;
+        height : auto;
+        min-width : 100%;
+        min-height : 100%;
+
+        position : fixed;
+        right : 0px;
+        bottom : 0px;
+        z-index : 1;
+    }
+    span#s1
+    {
+        color : white;
+        width : 500px;
+        text-align : center;
+        display : block;
+
+        font-family : Algerian;
+        font-size : 50px;
+
+        margin-left: -19%;
+        left : 50%;
+        position : fixed;
+        z-index : 3;
+        bottom : 10px;
+    }
+    </style>
+    <body>
+        <span id="s1">hi</span>
+        <video id="vid" loop="" autoplay="">
+            <source src="pissashit.webm" type="video/webm">
+        </video>
+    </body>
+</html>
